@@ -17,3 +17,7 @@ fn another_function() {
 fn function_with_parameter(x: i32) {
     println!("print result with parameter {}", x);
 }
+
+// 区分 statement、expression
+// statement: ends with semicolon,  has no returned value.
+// expression: must return a value
