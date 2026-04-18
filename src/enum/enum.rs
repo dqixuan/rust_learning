@@ -117,6 +117,13 @@ fn plus_one(param: Option<i32>) -> Option<i32> {
     }
 }
 
+// a function with one parameter with one lifetime parameter
+fn foo<'a> (x: &'a i32) {}
+fn foo1<'a, 'b>(x: &'a i32, y: &'a i32) {}
+
+fn foo2<'a>(x: &'a i32) -> &'a i32 {}
+
+
 
 
 
